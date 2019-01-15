@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch=".." name="origin"/>
+  <default revision="master" sync-j="1"  remote="origin"/>
+  <project path="slingshot_src" name="slingshot_src" groups="source"/>
+  <project path="rock" name="rock" groups="source" revision="stable"/>
+  <project path="doc" name="doc" groups="documentation"/>
+</manifest>
+
